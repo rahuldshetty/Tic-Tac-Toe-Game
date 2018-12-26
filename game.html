@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Play Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <h1 class="texts">
+        Tic Tac Toe
+    </h1>
+   
+    <div class="container">
+        
+        <div class="box">
+        <p class="selectplayer"> Select player2: </p>
+        <br>
+        BOT:<input id="r1" value="Bot" type="radio" name="player2" checked><br>
+        Player:<input id="r2" value="Player" type="radio" name="player2"><br>
+        </div>
+
+        <div class="superbox">
+
+        <button onclick="resetGame()" class="btn">Reset Game</button>
+
+        <h2 id="winstatus"></h2>
+        <br>
+
+        <p class="msg" id="prompt1">Player 1's Turn</p>
+        <p class="msg" id="prompt2">Player 2's Turn</p>
+        
+        <table> 
+            <tr>
+                <td align="center" id="1" onclick="clicked('1')"></td>
+                <td align="center" id="2" onclick="clicked('2')"></td>
+                <td align="center" id="3" onclick="clicked('3')"></td>
+            </tr>
+            <tr>
+                <td align="center" id="4" onclick="clicked('4')"></td>
+                <td align="center" id="5" onclick="clicked('5')"></td>
+                <td align="center" id="6" onclick="clicked('6')"></td>
+            </tr>
+              <tr>
+                <td align="center" id="7" onclick="clicked('7')"></td>
+                <td align="center" id="8" onclick="clicked('8')"></td>
+                <td align="center" id="9" onclick="clicked('9')"></td>
+            </tr>
+
+        </table>
+
+        
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+td{
+    border:2px solid black;
+}
+td{
+    width:100px;
+    height:100px;
+    content:' ';
+    font-size:80px;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+    color:#673AB7;
+}
+
+.selectplayer{
+    display:inline-block;
+}
+
+.msg{
+    display: inline-block;
+    padding:20px;
+    font-family: 'Righteous', cursive;
+    font-size:19px;
+}
+#prompt1{
+    color:#66BB6A;
+}
+
+.box{
+    font-family: 'Righteous', cursive;
+    padding:10px;
+    font-size:19px;
+    display: block;
+}
+
+.superbox{
+    margin:auto;
+    right:100px;
+    display: block;
+}
+
+.container{
+    padding:25px;
+}
+.texts{
+    font-family: 'Righteous', cursive;
+    color:#EC407A;
+    width:100%;
+    font-size:40px;
+    padding:15px;
+    margin:0;
+}
+#winstatus{
+    font-family: 'Righteous', cursive;
+    color:red;
+    font-size:35px;
+    display: inline-block;
+}
+
+.btn{
+    display:block;
+    padding:10px;
+    color:white;
+    background:#EC407A;
+    font-family: 'Righteous', cursive;
+    border:1px solid #EC407A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:#EC407A;
+    background: white;
+}
